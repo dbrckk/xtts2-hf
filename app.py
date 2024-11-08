@@ -189,7 +189,7 @@ def predict(
         else:
             speaker_wav = speaker_wav
 
-        if len(prompt) < 2:
+        if len(prompt) < 20:
             gr.Warning("Please give a longer prompt text")
             return (
                 None,
